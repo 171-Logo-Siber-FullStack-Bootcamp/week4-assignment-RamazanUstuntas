@@ -1,26 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PageWrapper></PageWrapper>
+  <ScrollToTop></ScrollToTop>
+  <LogoutModal></LogoutModal>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PageWrapper from './components/PageWrapper'
+import ScrollToTop from './components/ScrollToTop'
+import LogoutModal from './components/LogoutModal'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageWrapper,
+    ScrollToTop,
+    LogoutModal
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
