@@ -16,7 +16,7 @@
 
 <script>
 import TopBar from './main/TopBar'
-import PageContent from './main/ContentMain'
+import PageContent from './main/PageContent'
 
 export default {
    name: 'ContentMain',
